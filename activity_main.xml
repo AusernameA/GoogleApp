@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#616060"
+                android:padding="40dp"
+                android:text=" "
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                android:paddingHorizontal="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:paddingTop="15dp">
+
+                        <Button
+                            android:id="@+id/l1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#B4B0B0"
+                            android:text="Александр \n Невский" />
+                        <Button
+                            android:id="@+id/l2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BBB9B9"
+                            android:layout_margin="10dp"
+                            android:text="Борис \n Шереметьев" />
+                        <Button
+                            android:id="@+id/l3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BBB9B9"
+                            android:layout_margin="10dp"
+                            android:text="Петр \n Салтыков" />
+                        <Button
+                            android:id="@+id/l4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BBB9B9"
+                            android:layout_margin="10dp"
+                            android:text="Александр \n Прозоровский" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:paddingTop="15dp">
+
+                        <Button
+                            android:id="@+id/r1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#B4B0B0"
+                            android:text="Григорий \n   Спиридов  " />
+
+                        <Button
+                            android:id="@+id/r2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#B4B0B0"
+                            android:text="Федор \n Ушаков" />
+
+                        <Button
+                            android:id="@+id/r3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BBB9B9"
+                            android:layout_margin="10dp"
+                            android:text="Федор \n Толбухин" />
+
+                        <Button
+                            android:id="@+id/r4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#BBB9B9"
+                            android:layout_margin="10dp"
+                            android:text="Василий \n Блюхер" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
